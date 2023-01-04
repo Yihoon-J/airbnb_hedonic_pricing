@@ -33,6 +33,9 @@ method: selenum crawling
 
 
 ### 데이터 전처리
-TBD
+1. 중복 숙소 제거, 리뷰 없는 숙소 제거
+2. 지하철역 거리 계산: 지하철역 위치 지오코딩 후 숙소와의 직선거리(KM) 계산
+3. 리뷰 감성값: PORORO 패키지의 review scoring 
 
 ### 회귀분석
+TBD
